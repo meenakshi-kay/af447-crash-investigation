@@ -96,7 +96,7 @@ plt.ylabel("CAS 1 - CAS ISIS (kt)")
 plt.title("Difference Between Airspeed Measurements")
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("AF447_deltaV.png", dpi=180)
+plt.savefig("plots/AF447_deltaV.png", dpi=180)
 plt.show()
 
 # Plot absolute disagreement
@@ -107,7 +107,7 @@ plt.ylabel("Absolute disagreement (kt)")
 plt.title("Absolute Disagreement Between Airspeed Measurements")
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("AF447_absolute_disagreement.png", dpi=180)
+plt.savefig("plots/AF447_absolute_disagreement.png", dpi=180)
 plt.show()
 
 
@@ -161,7 +161,7 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 
-plt.savefig("AF447_disagreement_analysis.png", dpi=200)
+plt.savefig("plots/AF447_disagreement_analysis.png", dpi=200)
 plt.show()
 
 #________________________________________________________________________________
@@ -185,7 +185,7 @@ plt.title("Signed Difference Between Airspeed Indications")
 
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("AF447_signed_difference.png", dpi=200)
+plt.savefig("plots/AF447_signed_difference.png", dpi=200)
 plt.show()
 
 
